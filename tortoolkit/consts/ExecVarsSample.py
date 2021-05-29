@@ -11,7 +11,7 @@ except:
         BOT_TOKEN = os.environ.get("BOT_TOKEN")
         BASE_URL_OF_BOT = os.environ.get("BASE_URL")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001219425224,1329541902]
+        ALD_USR = [-1001467006892,984189241]
         
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 5
@@ -58,7 +58,7 @@ except:
         MAX_TORRENT_SIZE = 10
 
         # This is to stop someone from abusing the system by imposing the limit
-        # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
+        # [<GBs of total torrent space>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
         USER_CAP_ENABLE = False
         USER_CAP_LIMIT = [50,10,5]
 
